@@ -33,6 +33,7 @@ echo ".gitmodules" > .git/info/sparse-checkout
 
 # add the repo as a remote and fetch the repo's history
 git remote add origin "$GIT_REPO_URL"
+echo "git remote add origin $GIT_REPO_URL"
 
 # install the ssh key
 mkdir -p ~/.ssh
